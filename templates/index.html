@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>test</title>
+  </head>
+  <body>
+    <h1>This is index</h1>
+    <h1>{{ name }} {{ age }}</h1>
+    <form action="" method="POST">
+      {{ form.csrf_token }}
+      {{ form.name }}
+      {{ form.age }}
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
